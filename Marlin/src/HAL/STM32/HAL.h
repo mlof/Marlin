@@ -128,6 +128,7 @@
 // ------------------------
 
 typedef double isr_float_t;   // FPU ops are used for single-precision, so use double for ISRs.
+typedef int32_t pin_t;
 
 #ifdef STM32G0B1xx
   typedef int32_t pin_t;
